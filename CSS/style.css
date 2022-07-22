@@ -10,8 +10,9 @@ body{
     line-height: 1;
     font-weight: 400;
     background-color: #fff;
+    font-family: 'iranYekan';
 }
-ol, ul {
+ol, ul , li {
 	list-style: none;
 }
 a{
@@ -21,4 +22,91 @@ a{
 img{
     width: 100%;
 }
+/* button */
+
+.btn:link , 
+.btn:visited{
+    display: inline-block;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, 0.7);
+    border: none;
+}
+.btn-primary:link ,
+.btn-primary:visited{
+    border: 1px solid #00A8D6;
+    border-radius: 0.9rem;
+    color: #00A8D6;
+   margin: 0 1rem;
+   
+}
+.btn-secondary:link , 
+.btn-secondary:visited {
+    color: #fff;
+    background-color: #00A8D6;
+    border-radius: 0.9rem;
+    
+    
+}
+
+/* fonts  */
+@font-face {
+    font-family: 'iranYekan' ;
+    src: url('/assets/font/IRANYekanWebRegular.woff') format("woff"); 
+    src : url('/assets/font/IRANYekanWebRegular.woff2') format("woff2");
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'iranYekan' ;
+    src: url('/assets/font/IRANYekanWebMedium.woff') format("woff"); 
+    src : url('/assets/font/IRANYekanWebMedium.woff2') format("woff2");
+    font-weight: 400;
+}
+
+
+/* header */
+
+.main-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.3rem 10rem;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+.main-nav ul.main-menu{
+ flex: 1;
+}
+.header-logo{
+    width: 150px;
+}
+.main-nav ul{
+    display: flex;
+    margin-right: 2rem;
+    gap: 1.4rem;
+}
+.links-list:link ,
+.links-list:visited{
+    font-size: 1.4rem;
+    color: #6c757d;
+}
+.links-list:hover,
+.links-list:active{
+   color: #000000;
+   transition: all 0.2ms;
+}
+
+
+.other-links-list:link ,
+.other-links-list:visited{
+    color: #00A8D6;
+    font-weight: 600;
+    
+}
+.other-list  .links-list{
+    border-left: 1px solid #ced4da;
+    padding: 0 1rem;
+}
+
+
 
