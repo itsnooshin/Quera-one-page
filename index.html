@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
   <head>
+     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> 
     <!-- favicon -->
-    <link rel="icon" type="image/x-icon" href="/assets/quera.png" />
+    <link rel="icon" type="image/x-icon" href="./assets/favicon-16x16.png" />
     <!-- css links -->
-    <link rel="stylesheet" href="/CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/style.css" />
     <!-- meta -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -12,6 +14,9 @@
     <title>تمرین و سوالات برنامه نویسی</title>
   </head>
   <body>
+
+
+
     <!-- header page  -->
 
    
@@ -39,6 +44,437 @@
         <a href="#" class="btn btn-primary">ورود</a>
         <a href="#" class="btn btn-secondary">عضویت</a>
       </nav>
-  
+
+
+      <!-- box banner  -->
+
+      <section class="box__container">
+        <div class="container_image">
+            <img src="./assets/2a5cf835ca4c79612ad1cf64c8370495.jpg" class="container__img" alt="">
+            </div>
+            <div class="container__title-box">
+                <div class="main-box">
+                        <a href="#" class="links-list first_element">بانک سوالات</a>
+                     
+                    <div class="main-box__list">
+                        
+                            <ion-icon name="code-slash-outline" class="icon code-icon"></ion-icon>
+                            <a href="#" class="main-box__title second-element"> &nbsp; بانک سوالات</a>
+
+                    </div>
+                    <div class="main-box__list">
+                        
+                        <ion-icon name="trophy-outline" class="icon"></ion-icon>
+                            <a href="#" class="main-box__title"> &nbsp; نفرات برتر</a>
+                    </div>
+                    </div>
+                
+                </div>
+            
+        
+      </section>
+
+
+     <!-- main section-->
+     <div class="section__showcase">
+
+         <!--  6 part side bar  -->
+            <div class="sidebar__showcase">
+               <div class="sidebar__showcase-title">
+                <p class="sidebar__title">
+                  نشان شده
+                </p>
+                <div class="sidebar__title-icon">
+                  <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider"></span>
+                    </label>
+                </div>
+
+               </div>
+               <div class="sidebar__showcase-collection">
+                <!-- first right box -->
+
+                <div class="sidebar__showcase-collection-title">
+                  <p class="collection__title">
+                    دسته بندی
+                  </p>
+                  <div class="sidebar__collection-icon">
+                    <ion-icon name="chevron-up-outline" class="icon_col"></ion-icon>
+                  </div> 
+                </div>
+                <div class="collection-itemes">
+                  <div class="collection-item">
+                    <input type="checkbox" id="names" class="box-collection">
+                    <label for="names" class="name-collection">تکنولوژی</label>
+                  </div>
+                  <div class="collection-item">
+                    <input type="checkbox" id="names" class="box-collection">
+                    <label for="names"  class="name-collection">مسابقه</label>
+                  </div>
+                  <div class="collection-item">
+                    <input type="checkbox" id="names" class="box-collection">
+                    <label for="names" class="name-collection">دانشگاهی</label>
+                  </div>
+                  <div class="collection-item">
+                    <input type="checkbox" id="names" class="box-collection">
+                    <label for="names" class="name-collection">المپیاد</label>
+                  </div>
+                  
+                </div>
+              
+               
+               </div>
+               <!-- seond box  -->
+                 <div class="collection__item-solution">
+                  <div class="item__solutaion-title">
+                    <p class="solutaion-title">
+                      وضعیت حل 
+                    </p>
+                    <div class="sidebar__collection-icon">
+                      <ion-icon name="chevron-up-outline" class="icon_col"></ion-icon>
+                    </div> 
+                  </div>
+                  <div class="collection-itemes">
+                    <div class="collection-item">
+                      <input type="checkbox" id="names" class="box-collection">
+                      <label for="names" class="name-collection">حل کامل</label>
+                    </div>
+                    <div class="collection-item">
+                      <input type="checkbox" id="names" class="box-collection">
+                      <label for="names"  class="name-collection">حل ناتمام</label>
+                    </div>
+                    <div class="collection-item">
+                      <input type="checkbox" id="names" class="box-collection">
+                      <label for="names"  class="name-collection">بدون تلاش</label>
+                    </div>
+                  </div>
+
+                  
+
+                 </div>
+
+
+                 <!-- second side bar (labels ) -->
+
+                 <div class="collection__itemes-label">
+                   <div class="item__solutaion-title">
+                    <p class="solutaion-title">
+                      برچسب ها
+                    </p>
+                    <div class="sidebar__collection-icon">
+                      <ion-icon name="chevron-up-outline" class="icon_col"></ion-icon>
+                    </div> 
+                  
+                  </div>
+
+                  <div class="label__search">
+                    
+                    <input type="text" class="input-search"   placeholder=" جستجوی نام برچسب...">
+                    <span class="icon-inside"><ion-icon name="search-outline"></ion-icon></span>
+                    
+                    
+                  </div>
+                  <div class="label__names">
+                    <div >
+                      <input type="checkbox" id="names" class="box-collection">
+                      <label for="names"  class="name-collection">Devops</label>
+                    </div>
+                    <div>
+                      <input type="checkbox" id="names" class="box-collection">
+                      <label for="names"  class="name-collection">PHP</label>
+                    </div>
+                    <div >
+                      <input type="checkbox" id="names" class="box-collection">
+                      <label for="names"  class="name-collection">React</label>
+                    </div>
+                    <div >
+                      <input type="checkbox" id="names" class="box-collection">
+                      <label for="names"  class="name-collection">اندورید</label>
+                    </div>
+                    <div >
+                      <input type="checkbox" id="names" class="box-collection">
+                      <label for="names"  class="name-collection">پایتون</label>
+                    </div>
+                    <div >
+                      <input type="checkbox" id="names" class="box-collection">
+                      <label for="names"  class="name-collection">پایگاه داده</label>
+                    </div>
+                    <div >
+                      <input type="checkbox" id="names" class="box-collection">
+                      <label for="names"  class="name-collection">تحلیل داده</label>
+                    </div>
+                    <div >
+                      <input type="checkbox" id="names" class="box-collection">
+                      <label for="names"  class="name-collection">جاوا</label>
+                    </div>
+                    <div >
+                      <input type="checkbox" id="names" class="box-collection">
+                      <label for="names"  class="name-collection">جنگو</label>
+                    </div>
+                    <div >
+                      <input type="checkbox" id="names" class="box-collection">
+                      <label for="names"  class="name-collection">دانشگاه تهران</label>
+                    </div>
+                    <div >
+                      <input type="checkbox" id="names" class="box-collection">
+                      <label for="names"  class="name-collection">دانشگاه صعنتی شریف</label>
+                    </div>
+                    <div >
+                      <input type="checkbox" id="names" class="box-collection">
+                      <label for="names"  class="name-collection">انشگاه صعنتی امیر کبیر</label>
+                    </div>
+                    <div >
+                      <input type="checkbox" id="names" class="box-collection">
+                      <label for="names"  class="name-collection">فرانت اند </label>
+                    </div>
+                    <div >
+                      <input type="checkbox" id="names" class="box-collection">
+                      <label for="names"  class="name-collection">بک اند </label>
+                    </div>
+                    <div >
+                      <input type="checkbox" id="names" class="box-collection">
+                      <label for="names"  class="name-collection">لینوکس</label>
+                    </div>
+                    <div >
+                      <input type="checkbox" id="names" class="box-collection">
+                      <label for="names"  class="name-collection">برنامه نویسی پیشرفته </label>
+                    </div>
+                    <div >
+                      <input type="checkbox" id="names" class="box-collection">
+                      <label for="names"  class="name-collection">Git</label>
+                    </div>
+                   
+                    <div >
+                      <input type="checkbox" id="names" class="box-collection">
+                      <label for="names"  class="name-collection">طراحی الگوریتم</label>
+                    </div>
+                   
+                    <div >
+                      <input type="checkbox" id="names" class="box-collection">
+                      <label for="names"  class="name-collection">مبانی برنامه نویسی</label>
+                    </div>
+                   
+                    <div >
+                      <input type="checkbox" id="names" class="box-collection">
+                      <label for="names"  class="name-collection">یادگیری ماشین</label>
+                    </div>
+                   
+                    
+                 
+                  
+                  </div>
+                
+
+                 </div>
+                 <!-- compotion section -->
+                 <div class="compotion__section">
+                  <div class="item__solutaion-title">
+                    <p class="solutaion-title">
+                     مسابقه
+                    </p>
+                    <div class="sidebar__collection-icon">
+                      <ion-icon name="chevron-up-outline" class="icon_col"></ion-icon>
+                    </div> 
+                  
+                  </div>
+
+                  <div class="label__search">
+                    
+                    <input type="text" class="input-search"   placeholder=" جستجوی  مسابقه...">
+                    <span class="icon-inside"><ion-icon name="search-outline"></ion-icon></span>
+                    
+                    
+                  </div>
+                  <div class="compotion__info">
+                    <div class="compotion__names">
+                      <div>
+                        <input type="checkbox" id="names" class="box-collection">
+                      <label for="names"  class="name-collection">آزمون ورودی بوت کمپ تابستانه اسنپ</label>
+                      </div>
+                      <div>
+                        <input type="checkbox" id="names" class="box-collection">
+                      <label for="names"  class="name-collection">آزمون ورودی بوت کمپ بی نهایت 
+                        
+                      </label>
+                      </div>
+                      <div>
+                        <input type="checkbox" id="names" class="box-collection">
+                      <label for="names"  class="name-collection">آزمون ورودی بوت کمپ بی نهایت </label>
+                      </div>
+                      <div>
+                        <input type="checkbox" id="names" class="box-collection">
+                      <label for="names"  class="name-collection">آزمون ورودی بوت کمپ توسعه نرم افزار رهنما کالج</label>
+                      </div>
+                      <div>
+                        <input type="checkbox" id="names" class="box-collection">
+                      <label for="names"  class="name-collection">مسابقه الگوریتمی شماره 44 (آموزشی )</label>
+                      </div>
+                      <div>
+                        <input type="checkbox" id="names" class="box-collection">
+                      <label for="names"  class="name-collection">مسابقه الگوریتمی 43</label>
+                      </div>
+                      <div>
+                        <input type="checkbox" id="names" class="box-collection">
+                      <label for="names"  class="name-collection">دروغ 13</label>
+                      </div>
+                      <div>
+                        <input type="checkbox" id="names" class="box-collection">
+                      <label for="names"  class="name-collection">مسابقه 1400</label>
+                      </div>
+                      
+                    </div>
+                  </div>
+
+                 </div>
+
+                 <!-- the success people section -->
+
+                 <section class="section__top">
+                   <div class="section__top-student">
+                    <p class="solutaion-title">
+                      نفرات برتر
+                     </p>
+                     <!--option tag -->
+                    
+                    <div class="section__max-soluation">
+                    
+                      <select name="students" id="students" >
+                        <option value="first">بیشترین حل</option>
+                        <option value="second"> بیشترین حل - تکنولوژی</option>
+                        <option value="third">بیشترین حل - مسابقه</option>
+                        <option value="fourth">بیشترین حل - دانشگاهی</option>
+                        <option value="fifth">بیشترین حل -المپیاد</option>
+                       </select>
+                    </div>
+                  <!--top students names -->
+                  <div class="section__students-names">
+
+                      <div class="container_students_names">
+                        <div class="container__names">
+                          <img src="./assets/107c4bbfb4b9ff2a4b901e0e0c9b28b5.jpg" class="student_img" alt="">
+                          <p class="student__name">محمد حسینی
+                          </p>
+                        </div>
+                        <p class="student__score">۶۲۲</p>
+
+                      </div>
+                      <div class="container_students_names">
+                        <div class="container__names">
+                          <img src="./assets/b4275ec028edab71b28092b7dd91085f.jpg" class="student_img" alt="">
+                          <p class="student__name">امیررضا اکتسابی
+                          </p>
+                        </div>
+                        <p class="student__score">
+                          ۵۸۹</p>
+
+                      </div>
+                      <div class="container_students_names">
+                        <div class="container__names">
+                          <img src="./assets/739910b8ce87ecb58fe17fe985360272.jpg" class="student_img" alt="">
+                          <p class="student__name">محمدامین هاشمی 
+                          </p>
+                        </div>
+                        <p class="student__score">۵۵۹</p>
+
+                      </div>
+                      <div class="container_students_names">
+                        <div class="container__names">
+                          <img src="./assets/3d08c042078e32d39cf94a065ee6499f.jpg" class="student_img" alt="">
+                          <p class="student__name">محمدپارسا الهی منش
+                          </p>
+                        </div>
+                        <p class="student__score">۵۵۹
+                        </p>
+
+                      </div>
+                      <div class="container_students_names">
+                        <div class="container__names">
+                          <img src="./assets/2a5cf835ca4c79612ad1cf64c8370495.jpg" class="student_img" alt="">
+                          <p class="student__name">مهدی حاج بابایی
+                          </p>
+                        </div>
+                        <p class="student__score">۵۴۰
+                        </p>
+
+                      </div>
+                      <div class="container_students_names">
+                        <div class="container__names">
+                          <img src="./assets/2950d20b7cd63cb699a5af882a0e3187.jpg" class="student_img" alt="">
+                          <p class="student__name">محمد بابایی
+                          </p>
+                        </div>
+                        <p class="student__score">۵۳۷</p>
+
+                      </div>
+                      <div class="container_students_names">
+                        <div class="container__names">
+                          <img src="./assets/210a4a731753b87c8cf0fe5b4bad914e.jpg" class="student_img" alt="">
+                          <p class="student__name">علی حسینی
+                          </p>
+                        </div>
+                        <p class="student__score">۵۲۷</p>
+
+                      </div>
+                      <div class="container_students_names">
+                        <div class="container__names">
+                          <img src="./assets/c42932d83a25832ec0f760951c951d6e.png" class="student_img" alt="">
+                          <p class="student__name">محمد مهدی جعفری
+
+                          </p>
+                        </div>
+                        <p class="student__score">۵۲۲</p>
+
+                      </div>
+                      <div class="container_students_names">
+                        <div class="container__names">
+                          <img src="./assets/9af83b19ca824498fa13de6feb5043fc.png" class="student_img" alt="">
+                          <p class="student__name">سعید زمانی
+                          </p>
+                        </div>
+                        <p class="student__score">۵۱۲</p>
+
+                      </div>
+                      <div class="container_students_names">
+                        <div class="container__names">
+                          <img src="./assets/8c677cd6f8c40461e8d15a7af46229d3.jpg" class="student_img" alt="">
+                          <p class="student__name">
+                            محمد حسین مروی
+                            
+                          </p>
+                        </div>
+                        <p class="student__score">۴۹۹</p>
+
+                      </div>
+
+
+
+                  </div>
+ 
+
+
+
+                 </section>
+                 
+                 
+
+
+
+
+            </div>
+
+            
+            <div class="container__showcase">
+               
+
+
+            </div>
+     </div>
+         
+       
+        
+       
+       
+     </div>
   </body>
 </html>
